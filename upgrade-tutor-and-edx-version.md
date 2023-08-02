@@ -14,18 +14,16 @@
 ![git fetch edx](/images/git-fetch-edx.png)
 * Suppose that 
   * the branch you make modifications is `feature/make-some-modifications`, and the latest branch you want to apply is `open-release/palm.master` (note that this branch has to be suported by version of Tutor you are using)
-  * list of files you make modifications is:
-    * openedx/core/djangoapps/user_authn/views/registration_form.py
 
 You should run following commands:
 ```bash
 git checkout open-release/palm.master
 git pull
 git checkout -b feature/palm-master-make-some-modifications
-# Run below command for each file you make modificatios
-git checkout feature/make-some-modifications openedx/core/djangoapps/user_authn/views/registration_form.py
+# Run below command to bring your modifications to latest Open edX version
+git rebase open-release/palm.master
 ```
-![checkout modifications](./images/checkout-modifications.png)
+* If you got conflicts, you have to resolve them
 * Then run Git command to commit changes `git commit -m "Whatever you want to note"`
 
 ### Upgrade ecommerce (TBD)
