@@ -19,3 +19,26 @@ Upgrade tutor and code
 - [ ] Rebuild images and run necessary commands
 
 ## Configure for certification isssuing
+
+
+## Aug 08
+
+### Update payment page
+One thing: On payment page, could you do test purchase? On "Thank You" page after successful purchase, I need the steps to edit it:
+
+
+
+1. the path and file name
+2. the deployment steps
+3. I need to replace the logo and change the style of "dashboard" text to button
+
+
+
+As I do not want to use tutor's logo on my site, and the "dashborad" button is displayed as a text, I plan to change the style
+
+ok?
+
+### Other tasks
+- [ ] could you try "tutor images build mfe" on your dev env?
+- [ ] by the way, could you also provide me the step to edit the header and footer of CMS today?
+
