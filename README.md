@@ -42,3 +42,16 @@ ok?
 - [ ] could you try "tutor images build mfe" on your dev env?
 - [ ] by the way, could you also provide me the step to edit the header and footer of CMS today?
 
+## Aug 17
+### Need to check
+1. check the OPENEDX_RELEASE version
+2. check the tutor version
+3. check with Tony whether he made changes to MFE?
+### Solutions
+solution 1: uninstall MFE then install, and rebuild
+
+solution 2: install node-superagent as suggested in https://discuss.overhang.io/t/tutor-local-quickstart-fails-with-npm-timeout/2947/2
+
+solution 3: update the docker build as suggested in this https://github.com/overhangio/tutor-mfe/issues/125#issuecomment-1549669393
+
+solution 4: OS version as suggested in https://discuss.openedx.org/t/error-service-mfe-failed-to-build-build-failed/7568
